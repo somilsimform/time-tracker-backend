@@ -10,7 +10,7 @@ PREREQUISITES and STEPS TO RUN the CODE
 
 https://github.com/somilsimform/time-tracker-backend
 
-2. Create .env file for accessing environment variables accross the project.
+3. Create .env file for accessing environment variables accross the project.
 
 DB_HOST=localhost
 
@@ -30,18 +30,18 @@ APP_PORT=3100
 
 SECRET=adasxovnklnqklnkjdsankdnw
 
-3. After adding the database creds in .env file, run the migrations to create the tables in the database created in above step using below command.
+4. After adding the database creds in .env file, run the migrations to create the tables in the database created in above step using below command.
 
 npm run db:migrate
 
-4. After running the migrations, now its turn to add some data into the app. So now we need to run the seeders to fill the tables created in above step.
+5. After running the migrations, now its turn to add some data into the app. So now we need to run the seeders to fill the tables created in above step.
 
 npm run db:seed:all
 
-5. After running above commands successfully you can start the server using below commands
+6. After running above commands successfully you can start the server using below commands
 
 npm run start
 
-6. After above command your server will start running on port mentioned in env file. You can update the backend url in react frontend env for connection Backend and frontend.
+7. After above command your server will start running on port mentioned in env file. You can update the backend url in react frontend env for connection Backend and frontend.
 
 Video Demo:- https://www.loom.com/share/bf8a93d27e1041daa0873c7f80ac2490
