@@ -6,6 +6,10 @@ PREREQUISITES and STEPS TO RUN the CODE
 
 1. Create a postgres database.
 
+2. Clone the repo
+
+https://github.com/somilsimform/time-tracker-backend
+
 2. Create .env file for accessing environment variables accross the project.
 
 DB_HOST=localhost
