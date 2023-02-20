@@ -8,7 +8,7 @@ const router = express.Router();
 //= ===============================
 // router.get('/allUsers', userController.allUsers);
 
-router.get('/allLogs/:status', adminController.getAllLogs)
-router.post('/logs/update/status', adminController.updateLogStatus)
+router.get('/all-logs', adminController.getAllLogs)
+router.put('/logs/update/status', adminController.updateLogStatus)
 
 module.exports = router;

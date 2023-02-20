@@ -70,7 +70,7 @@ export const updateLog = async (req, res) => {
 export const getLogsByProject = async (req, res) => {
     try {
         const logs = await Log.findAll({
-            where: { project_id: req.body.project_id },
+            where: { project_id: req.body.project_id, user_id: req.body.user_id },
             include: [{ model: Task, attributes: ['id', 'name',] }]
         })
         return successResponse(req, res, { logs })
@@ -84,7 +84,7 @@ export const getLogsByProject = async (req, res) => {
 export const getLogsByTasks = async (req, res) => {
     try {
         const logs = await Log.findAll({
-            where: { task_id: req.body.task_id },
+            where: { task_id: req.body.task_id, user_id: req.body.user_id },
             include: [{ model: Task, attributes: ['id', 'name',] }, { model: Project, attributes: ['id', 'name',] }]
         })
         return successResponse(req, res, { logs })

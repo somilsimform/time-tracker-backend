@@ -9,7 +9,6 @@ import projectRoutes from './src/routes/projects'
 import apiRoutes from './src/routes/api';
 import adminRoutes from './src/routes/admin';
 import apiMiddleware from './src/middleware/apiAuth';
-import adminMiddleware from './src/middleware/adminAuth';
 import errorHandler from './src/middleware/errorHandler';
 
 dotenv.config();
