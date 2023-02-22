@@ -36,4 +36,4 @@ SECRET=adasxovnklnqklnkjdsankdnw
 
 7. After above command your server will start running on port mentioned in env file. You can update the backend url in react frontend env for connection Backend and frontend.
 
-Video Demo:- https://www.loom.com/share/bf8a93d27e1041daa0873c7f80ac2490
+Video Demo:- https://drive.google.com/file/d/1cKDq3apWGleS7-_8LL-0z1uNI4RbOuV3/view
